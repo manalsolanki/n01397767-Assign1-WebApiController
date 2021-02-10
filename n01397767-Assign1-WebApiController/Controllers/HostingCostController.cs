@@ -30,7 +30,7 @@ namespace n01397767_Assign1_WebApiController.Controllers
         /// </summary>
         /// <param name="id">This is an input integer for number of days.</param>
         /// <returns>3 strings describing the total cost of hosting.</returns>
-        //GET api/HostingCost
+       
         public IEnumerable<string> Get(int id)
         {
             int days = id;
